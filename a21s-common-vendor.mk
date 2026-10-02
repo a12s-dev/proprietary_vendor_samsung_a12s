@@ -8,7 +8,6 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/a21s-common/proprietary/vendor/etc/SoundBoosterParam.txt:$(TARGET_COPY_OUT_VENDOR)/etc/SoundBoosterParam.txt \
     vendor/samsung/a21s-common/proprietary/vendor/etc/audio_board_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_board_info.xml \
-    vendor/samsung/a21s-common/proprietary/vendor/etc/btcon.json:$(TARGET_COPY_OUT_VENDOR)/etc/btcon.json \
     vendor/samsung/a21s-common/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
     vendor/samsung/a21s-common/proprietary/vendor/etc/floating_feature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/floating_feature.xml \
     vendor/samsung/a21s-common/proprietary/vendor/etc/fstab.ramplus:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.ramplus \
@@ -104,33 +103,24 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libGLES_mali \
-    camera.exynos850 \
     vulkan.mali \
-    libSEF.quram \
     libSamsungPostProcessConvertor \
     lib_SoundAlive_SRC384_ver320 \
     lib_SoundBooster_ver1050 \
     lib_soundaliveresampler \
-    libexynoscamera3 \
-    libexynoscamera_plugin \
-    libexynoscamera_tdnr_plugin \
-    libmfb \
     libprofileparamstorage \
-    libremosaic_wrapper \
     libsecaudiocoreutils \
     libsecnativefeature \
-    libsensorlistener \
     libspatializerparamstorage \
     libteecl \
-    libuniapi \
-    libuniplugin \
     libuuid_vendor \
     sensors.grip \
     sensors.sensorhub \
-    vendor.samsung.hardware.thermal@1.0 \
     liboemcrypto \
     libwvhidl \
     android.hardware.gnss@2.1-impl \
+    camera.exynos850 \
+    libSEF.quram \
     libSemDataProps \
     libSemTelephonyProps \
     libbauthserver \
@@ -138,18 +128,26 @@ PRODUCT_PACKAGES += \
     libcryptx \
     libegis_fp_normal_sensor_test \
     libengmode_client \
+    libexynoscamera3 \
+    libexynoscamera_plugin \
+    libexynoscamera_tdnr_plugin \
     libfloatingfeature \
     libgf_in_system_lib \
     libkeymaster_helper \
+    libmfb \
     libqfp_sensortest \
+    libremosaic_wrapper \
     libril_sem \
     libsec-ril-impl \
     libsecril-client \
     libsemnativecarrierfeature \
+    libsensorlistener \
     libskeymaster4device \
     libssx \
     libstork_shared \
     libsynaFpSensorTestNwd \
+    libuniapi \
+    libuniplugin \
     libvkmanager_vendor \
     libvkservice \
     libwrappergps \
@@ -160,6 +158,7 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.radio.data-V1-ndk \
     vendor.samsung.hardware.radio.messaging-V1-ndk \
     vendor.samsung.hardware.radio.sim-V1-ndk \
+    vendor.samsung.hardware.thermal@1.0 \
     manifest_android.hardware.drm@1.4-service.widevine.xml \
     vendor.samsung.hardware.radio.exclude.slsi.xml \
     vendor.samsung.hardware.radio_manifest_2_33.xml \
