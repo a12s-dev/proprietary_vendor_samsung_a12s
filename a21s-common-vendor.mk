@@ -27,7 +27,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a21s-common/proprietary/vendor/etc/init/vendor.samsung.rilchip.slsi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.rilchip.slsi.rc \
     vendor/samsung/a21s-common/proprietary/vendor/etc/init/wifi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifi.rc \
     vendor/samsung/a21s-common/proprietary/vendor/etc/init/wifi_slsi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifi_slsi.rc \
-    vendor/samsung/a21s-common/proprietary/vendor/etc/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
     vendor/samsung/a21s-common/proprietary/vendor/etc/media_codecs_performance.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance.xml \
     vendor/samsung/a21s-common/proprietary/vendor/etc/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml \
     vendor/samsung/a21s-common/proprietary/vendor/etc/plmn_delta.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta.bin \
