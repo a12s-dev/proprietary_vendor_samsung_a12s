@@ -127,7 +127,6 @@ PRODUCT_PACKAGES += \
     libbauthtzcommon \
     libcryptx \
     libegis_fp_normal_sensor_test \
-    libengmode_client \
     libexynoscamera3 \
     libexynoscamera_plugin \
     libexynoscamera_tdnr_plugin \
