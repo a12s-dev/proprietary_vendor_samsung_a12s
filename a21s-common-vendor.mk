@@ -144,7 +144,6 @@ PRODUCT_PACKAGES += \
     libsynaFpSensorTestNwd \
     libuniapi \
     libuniplugin \
-    libvkmanager_vendor \
     libwrappergps \
     libswdap \
     vendor.samsung.hardware.radio-V1-ndk \
