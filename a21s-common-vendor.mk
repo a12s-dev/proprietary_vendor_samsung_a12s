@@ -16,13 +16,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a21s-common/proprietary/vendor/etc/gnss/gps.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/gps.cfg \
     vendor/samsung/a21s-common/proprietary/vendor/etc/gnss/gps.debug.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/gps.debug.cfg \
     vendor/samsung/a21s-common/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.widevine.rc \
-    vendor/samsung/a21s-common/proprietary/vendor/etc/init/cass.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/cass.rc \
     vendor/samsung/a21s-common/proprietary/vendor/etc/init/init.baseband.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.baseband.rc \
     vendor/samsung/a21s-common/proprietary/vendor/etc/init/init.gps.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gps.rc \
     vendor/samsung/a21s-common/proprietary/vendor/etc/init/init.ramplus.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.ramplus.rc \
     vendor/samsung/a21s-common/proprietary/vendor/etc/init/init.vendor.rilcommon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.rilcommon.rc \
     vendor/samsung/a21s-common/proprietary/vendor/etc/init/teegris_v4.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/teegris_v4.rc \
-    vendor/samsung/a21s-common/proprietary/vendor/etc/init/vaultkeeper_common.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vaultkeeper_common.rc \
     vendor/samsung/a21s-common/proprietary/vendor/etc/init/vendor.samsung.rilchip.slsi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.rilchip.slsi.rc \
     vendor/samsung/a21s-common/proprietary/vendor/etc/init/wifi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifi.rc \
     vendor/samsung/a21s-common/proprietary/vendor/etc/init/wifi_slsi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifi_slsi.rc \
@@ -143,12 +141,10 @@ PRODUCT_PACKAGES += \
     libsensorlistener \
     libskeymaster4device \
     libssx \
-    libstork_shared \
     libsynaFpSensorTestNwd \
     libuniapi \
     libuniplugin \
     libvkmanager_vendor \
-    libvkservice \
     libwrappergps \
     libswdap \
     vendor.samsung.hardware.radio-V1-ndk \
@@ -162,14 +158,12 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.radio.exclude.slsi.xml \
     vendor.samsung.hardware.radio_manifest_2_33.xml \
     vendor.samsung.hardware.sehradio_manifest_2_33.xml \
-    cass \
     android.hardware.drm@1.4-service.widevine \
     gps \
     gpsd \
     rild \
     tzdaemon \
-    tzts_daemon \
-    vaultkeeperd
+    tzts_daemon
 
 PRODUCT_PACKAGES += \
     vendor_lib_libOpenCL_so \
