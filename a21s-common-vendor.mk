@@ -15,7 +15,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a21s-common/proprietary/vendor/etc/gnss/deleteLogCommands:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/deleteLogCommands \
     vendor/samsung/a21s-common/proprietary/vendor/etc/gnss/gps.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/gps.cfg \
     vendor/samsung/a21s-common/proprietary/vendor/etc/gnss/gps.debug.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/gps.debug.cfg \
-    vendor/samsung/a21s-common/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.widevine.rc \
     vendor/samsung/a21s-common/proprietary/vendor/etc/init/init.baseband.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.baseband.rc \
     vendor/samsung/a21s-common/proprietary/vendor/etc/init/init.gps.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gps.rc \
     vendor/samsung/a21s-common/proprietary/vendor/etc/init/init.ramplus.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.ramplus.rc \
@@ -114,8 +113,6 @@ PRODUCT_PACKAGES += \
     libuuid_vendor \
     sensors.grip \
     sensors.sensorhub \
-    liboemcrypto \
-    libwvhidl \
     android.hardware.gnss@2.1-impl \
     libSemDataProps \
     libSemTelephonyProps \
@@ -126,6 +123,7 @@ PRODUCT_PACKAGES += \
     libfloatingfeature \
     libgf_in_system_lib \
     libkeymaster_helper \
+    liboemcrypto \
     libqfp_sensortest \
     libril_sem \
     libsec-ril-impl \
@@ -142,11 +140,10 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.radio.data-V1-ndk \
     vendor.samsung.hardware.radio.messaging-V1-ndk \
     vendor.samsung.hardware.radio.sim-V1-ndk \
-    manifest_android.hardware.drm@1.4-service.widevine.xml \
+    com.google.android.widevine.nonupdatable \
     vendor.samsung.hardware.radio.exclude.slsi.xml \
     vendor.samsung.hardware.radio_manifest_2_33.xml \
     vendor.samsung.hardware.sehradio_manifest_2_33.xml \
-    android.hardware.drm@1.4-service.widevine \
     gps \
     gpsd \
     rild \
