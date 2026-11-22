@@ -117,33 +117,23 @@ PRODUCT_PACKAGES += \
     liboemcrypto \
     libwvhidl \
     android.hardware.gnss@2.1-impl \
-    camera.exynos850 \
-    libSEF.quram \
     libSemDataProps \
     libSemTelephonyProps \
     libbauthserver \
     libbauthtzcommon \
     libcryptx \
     libegis_fp_normal_sensor_test \
-    libexynoscamera3 \
-    libexynoscamera_plugin \
-    libexynoscamera_tdnr_plugin \
     libfloatingfeature \
     libgf_in_system_lib \
     libkeymaster_helper \
-    libmfb \
     libqfp_sensortest \
-    libremosaic_wrapper \
     libril_sem \
     libsec-ril-impl \
     libsecril-client \
     libsemnativecarrierfeature \
-    libsensorlistener \
     libskeymaster4device \
     libssx \
     libsynaFpSensorTestNwd \
-    libuniapi \
-    libuniplugin \
     libwrappergps \
     libswdap \
     vendor.samsung.hardware.radio-V1-ndk \
@@ -152,7 +142,6 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.radio.data-V1-ndk \
     vendor.samsung.hardware.radio.messaging-V1-ndk \
     vendor.samsung.hardware.radio.sim-V1-ndk \
-    vendor.samsung.hardware.thermal@1.0 \
     manifest_android.hardware.drm@1.4-service.widevine.xml \
     vendor.samsung.hardware.radio.exclude.slsi.xml \
     vendor.samsung.hardware.radio_manifest_2_33.xml \
