@@ -113,6 +113,7 @@ PRODUCT_PACKAGES += \
     libexynoscamera3 \
     libexynoscamera_plugin \
     libexynoscamera_tdnr_plugin \
+    libexynoscamera_compat \
     libmfb \
     libprofileparamstorage \
     libremosaic_wrapper \
