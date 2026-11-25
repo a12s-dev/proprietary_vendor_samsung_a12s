@@ -72,11 +72,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a21s-common/proprietary/vendor/firmware/setfile_4ha.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_4ha.bin \
     vendor/samsung/a21s-common/proprietary/vendor/firmware/setfile_gc02m1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_gc02m1.bin \
     vendor/samsung/a21s-common/proprietary/vendor/firmware/setfile_gc02m1_macro.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_gc02m1_macro.bin \
+    vendor/samsung/a21s-common/proprietary/vendor/firmware/setfile_gc5035.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_gc5035.bin \
     vendor/samsung/a21s-common/proprietary/vendor/firmware/setfile_gm2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_gm2.bin \
-    vendor/samsung/a21s-common/proprietary/vendor/firmware/setfile_hi1336.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_hi1336.bin \
     vendor/samsung/a21s-common/proprietary/vendor/firmware/setfile_sr846.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_sr846.bin \
     vendor/samsung/a21s-common/proprietary/vendor/firmware/tdnr_GC02M1.json:$(TARGET_COPY_OUT_VENDOR)/firmware/tdnr_GC02M1.json \
-    vendor/samsung/a21s-common/proprietary/vendor/firmware/tdnr_HI1336.json:$(TARGET_COPY_OUT_VENDOR)/firmware/tdnr_HI1336.json \
+    vendor/samsung/a21s-common/proprietary/vendor/firmware/tdnr_GC5035.json:$(TARGET_COPY_OUT_VENDOR)/firmware/tdnr_GC5035.json \
     vendor/samsung/a21s-common/proprietary/vendor/firmware/tdnr_S5K4HA.json:$(TARGET_COPY_OUT_VENDOR)/firmware/tdnr_S5K4HA.json \
     vendor/samsung/a21s-common/proprietary/vendor/firmware/tdnr_S5KGM2.json:$(TARGET_COPY_OUT_VENDOR)/firmware/tdnr_S5KGM2.json \
     vendor/samsung/a21s-common/proprietary/vendor/firmware/tdnr_SR846.json:$(TARGET_COPY_OUT_VENDOR)/firmware/tdnr_SR846.json \
