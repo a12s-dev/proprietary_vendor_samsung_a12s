@@ -125,6 +125,7 @@ PRODUCT_PACKAGES += \
     libuniplugin \
     libuuid_vendor \
     sensors.grip \
+    sensors.inputvirtual \
     sensors.sensorhub \
     vendor.samsung.hardware.thermal@1.0 \
     liboemcrypto \
