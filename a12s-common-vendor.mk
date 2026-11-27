@@ -69,7 +69,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a12s-common/proprietary/vendor/firmware/mfc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mfc_fw.bin \
     vendor/samsung/a12s-common/proprietary/vendor/firmware/rxse.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rxse.bin \
     vendor/samsung/a12s-common/proprietary/vendor/firmware/sb_others.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sb_others.bin \
-    vendor/samsung/a12s-common/proprietary/vendor/firmware/setfile_4ha.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_4ha.bin \
     vendor/samsung/a12s-common/proprietary/vendor/firmware/setfile_gc02m1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_gc02m1.bin \
     vendor/samsung/a12s-common/proprietary/vendor/firmware/setfile_gc02m1_macro.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_gc02m1_macro.bin \
     vendor/samsung/a12s-common/proprietary/vendor/firmware/setfile_gc5035.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_gc5035.bin \
@@ -77,7 +76,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a12s-common/proprietary/vendor/firmware/setfile_sr846.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_sr846.bin \
     vendor/samsung/a12s-common/proprietary/vendor/firmware/tdnr_GC02M1.json:$(TARGET_COPY_OUT_VENDOR)/firmware/tdnr_GC02M1.json \
     vendor/samsung/a12s-common/proprietary/vendor/firmware/tdnr_GC5035.json:$(TARGET_COPY_OUT_VENDOR)/firmware/tdnr_GC5035.json \
-    vendor/samsung/a12s-common/proprietary/vendor/firmware/tdnr_S5K4HA.json:$(TARGET_COPY_OUT_VENDOR)/firmware/tdnr_S5K4HA.json \
     vendor/samsung/a12s-common/proprietary/vendor/firmware/tdnr_S5KGM2.json:$(TARGET_COPY_OUT_VENDOR)/firmware/tdnr_S5KGM2.json \
     vendor/samsung/a12s-common/proprietary/vendor/firmware/tdnr_SR846.json:$(TARGET_COPY_OUT_VENDOR)/firmware/tdnr_SR846.json \
     vendor/samsung/a12s-common/proprietary/vendor/firmware/txse1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/txse1.bin \
