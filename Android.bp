@@ -2281,7 +2281,6 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/vaultkeeperd",
             ],
             shared_libs: [
-                "libdsms_vendor",
                 "libvkservice",
                 "libcutils",
                 "liblog",
