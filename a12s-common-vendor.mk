@@ -183,3 +183,10 @@ PRODUCT_PACKAGES += \
     vendor_lib64_libOpenCL_so_1 \
     vendor_lib64_libOpenCL_so_1_1 \
     vendor_lib64_hw_vulkan_universal3830_so
+
+PRODUCT_PACKAGES += \
+    libSamsungPostProcessConvertor \
+    libsensorndkbridge \
+    lib_SoundBooster_ver1050 \
+    libcryptx \
+    libssx

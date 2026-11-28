@@ -14,6 +14,7 @@ soong_namespace {
 
 cc_prebuilt_library_shared {
     name: "libGLES_mali",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -68,6 +69,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "camera.exynos850",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -126,6 +128,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "gatekeeper.exynos850",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -166,6 +169,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vulkan.mali",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -204,6 +208,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libSEF.quram",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -241,6 +246,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libexynoscamera3",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -328,6 +334,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libexynoscamera_plugin",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -369,6 +376,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libexynoscamera_tdnr_plugin",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -416,6 +424,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmfb",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -459,6 +468,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libprofileparamstorage",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -502,6 +512,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libremosaic_wrapper",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -543,6 +554,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsecaudiocoreutils",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -578,6 +590,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsecnativefeature",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -619,6 +632,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsensorlistener",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -664,6 +678,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libteecl",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -697,6 +712,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libuniapi",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -736,6 +752,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libuniplugin",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -775,6 +792,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libuuid_vendor",
+    check_elf_files: false,
     stem: "libuuid",
     owner: "samsung",
     strip: {
@@ -809,6 +827,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "sensors.grip",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -862,6 +881,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "sensors.inputvirtual",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -911,6 +931,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "sensors.sensorhub",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -970,6 +991,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.samsung.hardware.thermal@1.0",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1017,6 +1039,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liboemcrypto",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1042,6 +1065,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwvhidl",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1080,6 +1104,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libswdap",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1111,6 +1136,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.gnss@2.1-impl",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1151,6 +1177,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.samsung.hardware.gnss@2.1-impl",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1185,6 +1212,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libSemDataProps",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1210,6 +1238,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libSemTelephonyProps",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1235,6 +1264,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libbauthserver",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1269,6 +1299,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libbauthtzcommon",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1297,6 +1328,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcrypto-tm",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1320,6 +1352,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libegis_fp_normal_sensor_test",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1343,6 +1376,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libengmode_client",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1371,6 +1405,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfloatingfeature",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1396,6 +1431,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgf_in_system_lib",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1422,6 +1458,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libkeymaster_helper",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1458,6 +1495,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libqfp_sensortest",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1485,6 +1523,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libril_sem",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1533,6 +1572,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsec-ril",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1580,6 +1620,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsecril-client",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1607,6 +1648,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsemnativecarrierfeature",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1635,6 +1677,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libskeymaster4device",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1672,6 +1715,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libstork_shared",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1697,6 +1741,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsynaFpSensorTestNwd",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1720,6 +1765,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvkmanager_vendor",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1746,6 +1792,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvkservice",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1774,6 +1821,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwrappergps",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1805,6 +1853,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.samsung.hardware.gnss@2.0",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1833,6 +1882,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.samsung.hardware.gnss@2.1",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1862,6 +1912,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.samsung.hardware.radio-V1-ndk",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1887,6 +1938,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.samsung.hardware.radio.bridge-V1-ndk",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1913,6 +1965,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.samsung.hardware.radio.channel-V1-ndk",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1939,6 +1992,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.samsung.hardware.radio.data-V1-ndk",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1965,6 +2019,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.samsung.hardware.radio.messaging-V1-ndk",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -1991,6 +2046,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.samsung.hardware.radio.sim-V1-ndk",
+    check_elf_files: false,
     owner: "samsung",
     strip: {
         none: true,
@@ -2053,6 +2109,7 @@ prebuilt_etc_xml {
 
 cc_prebuilt_binary {
     name: "cass",
+    check_elf_files: false,
     owner: "samsung",
     target: {
         android_arm64: {
@@ -2082,6 +2139,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "android.hardware.drm@1.4-service.widevine",
+    check_elf_files: false,
     owner: "samsung",
     target: {
         android_arm: {
@@ -2127,6 +2185,7 @@ sh_binary {
 
 cc_prebuilt_binary {
     name: "gpsd",
+    check_elf_files: false,
     owner: "samsung",
     target: {
         android_arm64: {
@@ -2157,6 +2216,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "rild",
+    check_elf_files: false,
     owner: "samsung",
     target: {
         android_arm64: {
@@ -2185,6 +2245,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.samsung.hardware.gnss@2.1-service",
+    check_elf_files: false,
     owner: "samsung",
     target: {
         android_arm64: {
@@ -2224,6 +2285,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "tzdaemon",
+    check_elf_files: false,
     owner: "samsung",
     target: {
         android_arm64: {
@@ -2249,6 +2311,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "tzts_daemon",
+    check_elf_files: false,
     owner: "samsung",
     target: {
         android_arm64: {
@@ -2274,6 +2337,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vaultkeeperd",
+    check_elf_files: false,
     owner: "samsung",
     target: {
         android_arm64: {
@@ -2281,6 +2345,7 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/vaultkeeperd",
             ],
             shared_libs: [
+                "libdsms_vendor",
                 "libvkservice",
                 "libcutils",
                 "liblog",
@@ -2371,4 +2436,55 @@ cc_library_shared {
     strip: {
         none: true,
     },
+}
+
+cc_prebuilt_library_shared {
+    name: "libSamsungPostProcessConvertor",
+    check_elf_files: false,
+    arch: {
+        arm: { srcs: ["proprietary/vendor/lib/libSamsungPostProcessConvertor.so"] },
+        arm64: { srcs: ["proprietary/vendor/lib64/libSamsungPostProcessConvertor.so"] },
+    },
+    strip: { none: true },
+    vendor: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libsensorndkbridge",
+    check_elf_files: false,
+    arch: {
+        arm: { srcs: ["proprietary/vendor/lib/libsensorndkbridge.so"] },
+        arm64: { srcs: ["proprietary/vendor/lib64/libsensorndkbridge.so"] },
+    },
+    strip: { none: true },
+    vendor: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "lib_SoundBooster_ver1050",
+    check_elf_files: false,
+    arch: {
+        arm: { srcs: ["proprietary/vendor/lib/lib_SoundBooster_ver1050.so"] },
+        arm64: { srcs: ["proprietary/vendor/lib64/lib_SoundBooster_ver1050.so"] },
+    },
+    strip: { none: true },
+    vendor: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcryptx",
+    check_elf_files: false,
+    compile_multilib: "64",
+    arch: { arm64: { srcs: ["proprietary/vendor/lib64/libcryptx.so"] } },
+    strip: { none: true },
+    vendor: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libssx",
+    check_elf_files: false,
+    compile_multilib: "64",
+    arch: { arm64: { srcs: ["proprietary/vendor/lib64/libssx.so"] } },
+    strip: { none: true },
+    vendor: true,
 }
